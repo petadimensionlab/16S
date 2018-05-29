@@ -1,3 +1,4 @@
 # 16S
 これは`jypyternotebook`のスクリプトです。
-This is 16s's Jupyter notebook.
+
+This is a jupyternotebook for 16S.
