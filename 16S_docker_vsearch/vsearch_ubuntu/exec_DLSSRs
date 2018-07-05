@@ -6,8 +6,8 @@ args = sys.argv
 cdir = os.getcwd()
 data_dir = args[1]
 #prefetch_dir = '/Users/snakaoka/ws/apps/sratoolkit/bin/'
-prefetch_dir = '/home/petadimensionlab/ws/apps/pfastq_dump/bin/'
-DL_dir = '/home/petadimensionlab/ncbi/public/sra/'
+prefetch_dir = '/home/ws/apps/16S/sratoolkit.2.9.1-1-ubuntu64/bin/'
+DL_dir = '/home/ncbi/public/sra/'
 
 ## convert sra to fastq ##
 os.chdir(data_dir)
