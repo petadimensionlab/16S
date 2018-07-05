@@ -1,7 +1,9 @@
-import os
+import os , sys
 
-data_dir = '/home/petadimensionlab/Desktop/PRJNA320132'
-is_pairend = 'no'
+args = sys.argv
+
+data_dir = args[1]
+is_pairend = args[2]
 
 os.chdir(data_dir)
 fr = open('SRR_Acc_List.txt','r').readlines()

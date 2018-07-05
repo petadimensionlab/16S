@@ -1,8 +1,10 @@
 # http://blog.amelieff.jp/?eid=231191
-import os, shutil, glob
+import os, shutil, glob , sys
+
+args = sys.argv
 
 cdir = os.getcwd()
-data_dir = '/home/petadimensionlab/Desktop/PRJNA320132'
+data_dir = args[1]
 #prefetch_dir = '/Users/snakaoka/ws/apps/sratoolkit/bin/'
 prefetch_dir = '/home/petadimensionlab/ws/apps/pfastq_dump/bin/'
 DL_dir = '/home/petadimensionlab/ncbi/public/sra/'
