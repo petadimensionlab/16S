@@ -2,7 +2,7 @@ import os , sys
 
 args = sys.argv
 
-data_dir = args[1]
+data_dir = '/condir/'+args[1]
 is_pairend = args[2]
 
 os.chdir(data_dir)

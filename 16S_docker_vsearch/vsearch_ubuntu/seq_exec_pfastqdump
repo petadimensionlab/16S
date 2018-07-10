@@ -4,8 +4,8 @@ import os, shutil, glob , sys
 args = sys.argv
 
 cdir = os.getcwd()
-data_dir = args[1]
-pfastqdump_dir = '/home/ws/apps/16S/sratoolkit.2.9.1-1-ubuntu64/bin/'
+data_dir = '/condir/'+args[1]
+pfastqdump_dir = '/sratool/bin/'
 
 is_pairend = args[2]
 is_gzip = 'yes'
